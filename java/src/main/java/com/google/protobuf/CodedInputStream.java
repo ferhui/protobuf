@@ -558,7 +558,7 @@ public final class CodedInputStream {
   private int sizeLimit = DEFAULT_SIZE_LIMIT;
 
   private static final int DEFAULT_RECURSION_LIMIT = 64;
-  private static final int DEFAULT_SIZE_LIMIT = 64 << 20;  // 64MB
+  private static final int DEFAULT_SIZE_LIMIT = 64 << 21;  // 128MB
   private static final int BUFFER_SIZE = 4096;
 
   private CodedInputStream(final byte[] buffer, final int off, final int len) {
